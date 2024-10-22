@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: hello-world-app
-        image: saianiltekuri/hello-world-app:replaceImageTag
+        image: saianiltekuri/hello-world-app:1
         ports:
         - containerPort: 8080
